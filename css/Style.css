@@ -83,6 +83,11 @@ nav ul li:hover::after {
     cursor: pointer;
     text-transform: uppercase;
   }
+  .button a:hover{
+    background-color: rgb(253, 95, 95);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+  }
 .img-logo{
     width: 50px;
     height: auto;
@@ -146,6 +151,12 @@ nav ul li:hover::after {
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
+  }
+  .button2 a:hover{
+    background-color: rgb(253, 95, 95);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    border: solid rgb(253, 95, 95) 1px;
   }
 .button3 {
     display: inline-block;
@@ -295,7 +306,15 @@ nav ul li:hover::after {
     margin-left: 750px;
     max-height: 130px;
     max-width: 250px;
+    transition: 0.7s ease-in-out;
     box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
+}
+.img-team-1:hover{
+    z-index: 9999999;
+    margin-left: 700px;
+    margin-top: -100px;
+    max-height: 230px;
+    max-width: 350px;
 }
 .img-team-2{
     position: absolute;
@@ -303,7 +322,13 @@ nav ul li:hover::after {
     max-width: 250px;
     margin-left: 900px;
     margin-top: -30px;
+    transition: 0.7s ease-in-out;
     box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
+}
+.img-team-2:hover{
+    z-index: 9999999;
+    max-height: 230px;
+    max-width: 350px;
 }
 .img-team-3{
     position: absolute;
@@ -311,7 +336,13 @@ nav ul li:hover::after {
     max-width: 250px;
     margin-left: 850px;
     margin-top: 60px;
+    transition: 0.7s ease-in-out;
     box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
+}
+.img-team-3:hover{
+    z-index: 9999999;
+    max-height: 230px;
+    max-width: 350px;
 }
 .Text-Header-3{
     text-align: center;
@@ -365,28 +396,72 @@ nav ul li:hover::after {
     color: #fff;
 }
 .img-esl{
+    position: absolute;
     margin-top: 10px;
     margin-left: 130px;
     height: 100px;
     width: 100px;
+    border-radius: 100%;
+    transition: 0.7s ease-in-out;
+    z-index: 1;
+}
+.img-esl:hover{
+    height: 130px;
+    width: 130px;
+    margin-left: 115px;
+    margin-top: -15px;
+    box-shadow: 0px 0px 5px #fff;
 }
 .img-lec{
+    position: absolute;
     margin-top: 320px;
-    margin-left: 40px;
+    margin-left: 270px;
     height: 100px;
     width: 100px;
+    border-radius: 100%;
+    transition: 0.7s ease-in-out;
+    z-index: 1;
+}
+.img-lec:hover{
+    height: 130px;
+    width: 130px;
+    margin-left: 255px;
+    margin-top: 290px;
+    box-shadow: 0px 0px 5px #fff;
 }
 .img-league{
+    position: absolute;
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 670px;
     height: 100px;
     width: 100px;
+    border-radius: 100%;
+    transition: 0.7s ease-in-out;
+    z-index: 1;
+}
+.img-league:hover{
+    height: 130px;
+    width: 130px;
+    margin-left: 655px;
+    margin-top: 75px;
+    box-shadow: 0px 0px 5px #fff;
 }
 .img-msi{
+    position: absolute;
     margin-top: 390px;
-    margin-left: 5px;
+    margin-left: 775px;
     height: 100px;
     width: 100px;
+    border-radius: 100%;
+    transition: 0.7s ease-in-out;
+    z-index: 1;
+}
+.img-msi:hover{
+    height: 130px;
+    width: 130px;
+    margin-left: 760px;
+    margin-top: 360px;
+    box-shadow: 0px 0px 5px #fff;
 }
 .text-esl{
     position: absolute;
@@ -398,6 +473,7 @@ nav ul li:hover::after {
     margin-left: 85px;
     width: 150px;
     padding: 20px;
+    z-index: 1;
 }
 .text-esl-1{
     position: absolute;
@@ -408,6 +484,7 @@ nav ul li:hover::after {
     margin-top: 160px;
     margin-left: 145px;  
     color: yellow;
+    z-index: 1;
 }
 .text-esl-2{
     position: absolute;
@@ -420,6 +497,7 @@ nav ul li:hover::after {
     margin-left: 240px;
     max-width: 300px;
     padding: 20px;
+    z-index: 1;
 }
 .text-lec{
     position: absolute;
@@ -431,6 +509,7 @@ nav ul li:hover::after {
     margin-left: 225px;
     width: 150px;
     padding: 20px;
+    z-index: 1;
 }
 .text-lec-1{
     position: absolute;
@@ -443,6 +522,7 @@ nav ul li:hover::after {
     width: 150px;
     padding: 20px;
     color: yellow;
+    z-index: 1;
 }
 .text-lec-2{
     position: absolute;
@@ -452,9 +532,10 @@ nav ul li:hover::after {
     letter-spacing: 1px;
     text-align: justify;
     margin-top: 320px;
-    margin-left: 370px;
+    margin-left: 380px;
     max-width: 300px;
     padding: 20px;
+    z-index: 1;
 }
 .text-league{
     position: absolute;
@@ -466,6 +547,7 @@ nav ul li:hover::after {
     margin-left: 605px;
     width: 190px;
     padding: 20px;
+    z-index: 1;
 }
 .text-league-1{
     position: absolute;
@@ -478,6 +560,7 @@ nav ul li:hover::after {
     width: 150px;
     padding: 20px;
     color: yellow;
+    z-index: 1;
 }
 .text-league-2{
     position: absolute;
@@ -490,6 +573,7 @@ nav ul li:hover::after {
     margin-left: 780px;
     max-width: 300px;
     padding: 20px;
+    z-index: 1;
 }
 .text-msi{
     position: absolute;
@@ -501,6 +585,7 @@ nav ul li:hover::after {
     margin-left: 710px;
     width: 190px;
     padding: 20px;
+    z-index: 1;
 }
 .text-msi-1{
     position: absolute;
@@ -513,6 +598,7 @@ nav ul li:hover::after {
     width: 150px;
     padding: 20px;
     color: yellow;
+    z-index: 1;
 }
 .text-msi-2{
     position: absolute;
@@ -522,9 +608,10 @@ nav ul li:hover::after {
     letter-spacing: 1px;
     text-align: justify;
     margin-top: 380px;
-    margin-left: 870px;
+    margin-left: 880px;
     max-width: 300px;
     padding: 20px;
+    z-index: 1;
 }
 .Merch{
     display: flex;
@@ -596,9 +683,30 @@ nav ul li:hover::after {
     cursor: pointer;
     text-transform: uppercase;
 }
-.social{
+.Merch-button a:hover{
+    background-color: rgb(253, 95, 95);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+  }
+#social{
     display: flex;
     width: 100%;
     height: 50vh;
-    background-color: #000000;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/back-logo.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 8px;
+}
+.social-content{
+    margin-top: 50px;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.social-content span{
+    color: red  ;
 }
