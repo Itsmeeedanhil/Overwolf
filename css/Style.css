@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One', sans-serif;
+}
+
+/* Header Style */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 70px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .logo {
+    width: 120px;
+    height: auto;
+} */
+
+nav {
+    font-family: 'Russo One', sans-serif;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    margin-left: 50px;
+}
+
+nav ul li {
+    font-weight: 500;
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+.button {
+    font-family: 'Russo One', sans-serif;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 18px 40px 18px 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+.img-logo{
+    width: 50px;
+    height: auto;
+    margin: 10px 5px 10px 40px;
+    float: left;
+}
+.logo{
+    display: flex;
+    
+}
+.logo h3{
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: auto;
+}
+#Home{
+    height: 100vh;
+    background: url(/images/Home-Background.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 8px;
+    
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: #ffffff;
+}
+.content h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1px;
+    margin: 0 50px;
+}
+.content p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 1px;
+    margin: 20px 50px;
+    width: 60%;
+}
+
+.button2 {
+    font-family: 'Russo One', sans-serif;
+    background-color: red;
+    border: solid red 1px;
+    color: white;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 80px 20px 0px 50px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .button3 {
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 8px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 80px 0px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .animation-area {
+	width: 100%;
+	height: 100vh;
+}
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 97%;
+	overflow: hidden;
+}
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 8s linear infinite;
+	bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+#Esport{
+    padding: 50px 0;
+    margin: 20px 50px;
+    height: 100vh;
+}
+.Text{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.Text-Header-1 h4{
+    font-size: 24px;
+    margin: 0;
+}
+.Text-Header-2 h4{
+    margin: 0;
+    margin-left: 7px;
+    font-size: 24px;    
+    color: red;
+    letter-spacing: 1px;
+}
+.Text-Header-3{
+    margin-bottom: 100px;
+    font-family: 'Prompt', sans-serif;
+}
+.Text-Header-5{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.span-text{
+    color: red;
+}
+.Text-Header-6 p{
+    width: 50%;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+}
+.img{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.img-team-1{
+    position: absolute;
+    margin-left: 750px;
+    height: 130px;
+    width: 250px;
+    box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
+}
+.img-team-2{
+    position: absolute;
+    height: 130px;
+    width: 250px;
+    margin-left: 900px;
+    margin-top: -30px;
+    box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
+}
+.img-team-3{
+    position: absolute;
+    height: 130px;
+    width: 250px;
+    margin-left: 850px;
+    margin-top: 60px;
+    box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
+}
+.Text-Header-3{
+    text-align: center;
+}
+.diagonal-section {
+    /* Used to position the diagonal area */
+    height: 140vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/all-games.jpg);
+    overflow: hidden;
+}
+.diagonal-section:after{
+    content: '';
+    background-color: #fff;
+    display: block;
+    width: 120%;
+    height: 109px;
+    left: -2;
+    position: absolute;
+    right: 0;
+    bottom: -47px;
+    transform: rotate(4deg);
+}
+.diagonal-section:before{
+    content: '';
+    background-color: #fff;
+    display: block;
+    width: 130%;
+    height: 109px;
+    left: -2;
+    position: absolute;
+    right: 0;
+    top: -47px;
+    transform: rotate(-4deg);
+}
+.Text-Title{
+    color: #fff;
+    padding-top: 100px;
+    margin-right: 100px;
+    letter-spacing: 7px;
+    font-weight: 300;
+    text-align: center;
+    float: right;
+    font-size: 30px;
+}
+.img-trophy{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.img-esl{
+    margin-top: 10px;
+    margin-left: 130px;
+    height: 100px;
+    width: 100px;
+}
+.img-lec{
+    margin-top: 320px;
+    margin-left: 40px;
+    height: 100px;
+    width: 100px;
+}
+.img-league{
+    margin-top: 100px;
+    margin-left: 300px;
+    height: 100px;
+    width: 100px;
+}
+.img-msi{
+    margin-top: 390px;
+    margin-left: 5px;
+    height: 100px;
+    width: 100px;
+}
+.text-esl{
+    position: absolute;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 85px;
+    width: 150px;
+    padding: 20px;
+}
+.text-esl-1{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 145px;  
+    color: yellow;
+}
+.text-esl-2{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 240px;
+    max-width: 300px;
+    padding: 20px;
+}
+.text-lec{
+    position: absolute;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 410px;
+    margin-left: 225px;
+    width: 150px;
+    padding: 20px;
+}
+.text-lec-1{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 440px;
+    margin-left: 225px;
+    width: 150px;
+    padding: 20px;
+    color: yellow;
+}
+.text-lec-2{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 320px;
+    margin-left: 370px;
+    max-width: 300px;
+    padding: 20px;
+}
+.text-league{
+    position: absolute;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 605px;
+    width: 190px;
+    padding: 20px;
+}
+.text-league-1{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 625px;
+    width: 150px;
+    padding: 20px;
+    color: yellow;
+}
+.text-league-2{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 90px;
+    margin-left: 780px;
+    max-width: 300px;
+    padding: 20px;
+}
+.text-msi{
+    position: absolute;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 490px;
+    margin-left: 710px;
+    width: 190px;
+    padding: 20px;
+}
+.text-msi-1{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 525px;
+    margin-left: 730px;
+    width: 150px;
+    padding: 20px;
+    color: yellow;
+}
+.text-msi-2{
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 380px;
+    margin-left: 870px;
+    max-width: 300px;
+    padding: 20px;
+}
+.Merch{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.merch-content{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: 50px 0px;
+}
+.head-merch{
+    color: red;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+.merch-content h4{
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
