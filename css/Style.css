@@ -26,7 +26,6 @@ header {
     width: 120px;
     height: auto;
 } */
-
 nav {
     font-family: 'Russo One', sans-serif;
     max-width: 100%;
@@ -47,6 +46,7 @@ nav ul li {
     display: inline-block;
     margin: 10px 20px;
     position: relative;
+    font-size: 1.2vw;
 }
 
 nav ul li a{
@@ -77,7 +77,7 @@ nav ul li:hover::after {
     padding: 8px 35px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1vw;
     margin: 18px 40px 18px 20px;
     display: inline-block;
     cursor: pointer;
@@ -89,21 +89,25 @@ nav ul li:hover::after {
     transition-duration: 0.5s;
   }
 .img-logo{
-    width: 50px;
+    max-width: 20%;
     height: auto;
-    margin: 10px 5px 10px 40px;
+    margin: 15px 5px 10px 40px;
     float: left;
 }
 .logo{
-    display: flex;
-    
+    margin: 0;
+    padding: 0;
+    width: 200px;
 }
 .logo h3{
     color: #ffffff;
     letter-spacing: 1px;
     font-weight: 200;
     text-transform: uppercase;
-    margin: auto;
+    margin: 23px 0px;
+}
+.title-E{
+    font-size: 1.5vw;
 }
 #Home{
     height: 100vh;
@@ -121,14 +125,14 @@ nav ul li:hover::after {
     color: #ffffff;
 }
 .content h2{
-    font-size: 45px;
+    font-size: 4vw;
     font-weight: 400;
     font-family: 'Russo One', sans-serif;
     letter-spacing: 1px;
     margin: 0 50px;
 }
 .content p{
-    font-size: 15px;
+    font-size: 1vw;
     font-weight: 400;
     font-family: 'Prompt', sans-serif;
     letter-spacing: 1px;
@@ -146,7 +150,7 @@ nav ul li:hover::after {
     padding: 8px 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1vw;
     margin: 80px 20px 0px 50px;
     display: inline-block;
     cursor: pointer;
@@ -175,7 +179,7 @@ nav ul li:hover::after {
     padding: 8px 35px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1vw;
     margin: 80px 0px;
     display: inline-block;
     cursor: pointer;
@@ -264,18 +268,19 @@ nav ul li:hover::after {
     padding: 0;
 }
 .Text-Header-1 h4{
-    font-size: 24px;
+    font-size: 1.7vw;
     margin: 0;
 }
 .Text-Header-2 h4{
     margin: 0;
     margin-left: 7px;
-    font-size: 24px;    
+    font-size: 1.7vw;    
     color: red;
     letter-spacing: 1px;
 }
 .Text-Header-3{
     margin-bottom: 100px;
+    font-size: 1vw;
     font-family: 'Prompt', sans-serif;
 }
 .Text-Header-5{
@@ -283,7 +288,7 @@ nav ul li:hover::after {
     margin: 0;
     padding: 0;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 2vw;
 }
 .span-text{
     color: red;
@@ -292,25 +297,27 @@ nav ul li:hover::after {
     width: 50%;
     margin-bottom: 30px;
     font-weight: 400;
+    font-size: 1vw;
     font-family: 'Prompt', sans-serif;
 }
 .img{
     display: flex;
     margin: 0;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    flex-wrap: wrap;
 }
 .img-team-1{
     position: absolute;
-    margin-left: 750px;
-    max-height: 130px;
+    margin-left: 50rem;
+    max-height: 100vh;
     max-width: 250px;
     transition: 0.7s ease-in-out;
     box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
 }
 .img-team-1:hover{
-    z-index: 9999999;
+    z-index: 9;
     margin-left: 700px;
     margin-top: -100px;
     max-height: 230px;
@@ -318,29 +325,29 @@ nav ul li:hover::after {
 }
 .img-team-2{
     position: absolute;
-    max-height: 130px;
+    max-height: 100vh;
     max-width: 250px;
-    margin-left: 900px;
+    margin-left: 60rem;
     margin-top: -30px;
     transition: 0.7s ease-in-out;
     box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
 }
 .img-team-2:hover{
-    z-index: 9999999;
+    z-index: 9;
     max-height: 230px;
     max-width: 350px;
 }
 .img-team-3{
     position: absolute;
-    max-height: 130px;
+    max-height: 100vh;
     max-width: 250px;
-    margin-left: 850px;
+    margin-left: 55rem;
     margin-top: 60px;
     transition: 0.7s ease-in-out;
     box-shadow: -8px 13px 18px 6px rgba(0, 0, 0, 0.5);
 }
 .img-team-3:hover{
-    z-index: 9999999;
+    z-index: 9;
     max-height: 230px;
     max-width: 350px;
 }
@@ -387,7 +394,7 @@ nav ul li:hover::after {
     font-weight: 300;
     text-align: center;
     float: right;
-    font-size: 30px;
+    font-size: 2.3vw;
 }
 .img-trophy{
     display: flex;
@@ -467,6 +474,7 @@ nav ul li:hover::after {
     position: absolute;
     font-family: 'Russo One', sans-serif;
     font-weight: 100;
+    font-size: 1vw;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 100px;
@@ -479,6 +487,7 @@ nav ul li:hover::after {
     position: absolute;
     font-family: 'Prompt', sans-serif;
     font-weight: 100;
+    font-size: 0.9vw;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 160px;
@@ -490,7 +499,7 @@ nav ul li:hover::after {
     position: absolute;
     font-family: 'Prompt', sans-serif;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 0.9vw;
     letter-spacing: 1px;
     text-align: justify;
     margin-top: 10px;
@@ -510,6 +519,7 @@ nav ul li:hover::after {
     width: 150px;
     padding: 20px;
     z-index: 1;
+    font-size: 1vw;
 }
 .text-lec-1{
     position: absolute;
@@ -523,6 +533,7 @@ nav ul li:hover::after {
     padding: 20px;
     color: yellow;
     z-index: 1;
+    font-size: 0.9vw;
 }
 .text-lec-2{
     position: absolute;
@@ -536,6 +547,7 @@ nav ul li:hover::after {
     max-width: 300px;
     padding: 20px;
     z-index: 1;
+    font-size: 0.9vw;
 }
 .text-league{
     position: absolute;
@@ -548,6 +560,7 @@ nav ul li:hover::after {
     width: 190px;
     padding: 20px;
     z-index: 1;
+    font-size: 1vw;
 }
 .text-league-1{
     position: absolute;
@@ -561,6 +574,7 @@ nav ul li:hover::after {
     padding: 20px;
     color: yellow;
     z-index: 1;
+    font-size: 0.9vw;
 }
 .text-league-2{
     position: absolute;
@@ -574,6 +588,7 @@ nav ul li:hover::after {
     max-width: 300px;
     padding: 20px;
     z-index: 1;
+    font-size: 0.9vw;
 }
 .text-msi{
     position: absolute;
@@ -586,6 +601,7 @@ nav ul li:hover::after {
     width: 190px;
     padding: 20px;
     z-index: 1;
+    font-size: 1vw;
 }
 .text-msi-1{
     position: absolute;
@@ -599,6 +615,7 @@ nav ul li:hover::after {
     padding: 20px;
     color: yellow;
     z-index: 1;
+    font-size: 0.9vw;
 }
 .text-msi-2{
     position: absolute;
@@ -612,6 +629,7 @@ nav ul li:hover::after {
     max-width: 300px;
     padding: 20px;
     z-index: 1;
+    font-size: 0.9vw;
 }
 .Merch{
     display: flex;
@@ -630,13 +648,13 @@ nav ul li:hover::after {
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    font-size: 24px;
+    font-size: 1.7vw;
 }
 .merch-title h4{
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    font-size: 24px;
+    font-size: 1.7vw;
 }
 .merch-cards{
     display: flex;
@@ -658,7 +676,7 @@ nav ul li:hover::after {
     border: solid black 1px;
 }
 .card-content h4{
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 .card-content img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -677,7 +695,7 @@ nav ul li:hover::after {
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1vw;
     margin: 0px 20px;
     display: inline-block;
     cursor: pointer;
@@ -689,10 +707,10 @@ nav ul li:hover::after {
     transition-duration: 0.5s;
   }
 #social{
-    display: flex;
     width: 100%;
-    height: 50vh;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
     justify-content: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/back-logo.jpg);
     background-position: center;
@@ -700,13 +718,155 @@ nav ul li:hover::after {
     box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 8px;
 }
 .social-content{
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
     color: #fff;
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 2vw;
 }
 .social-content span{
     color: red  ;
+}
+.social-side{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social-side img{
+    max-width: 500px;
+    max-height: 40vh;
+    margin-left: 170px;
+    margin-top: 60px;
+    border: 3px solid white;
+}
+.social-side h4{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.social-side span{
+    color: red;
+}
+.social-side-text{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.social-side-text p{
+    color: #fff;
+    font-size: 0.9vw;
+    font-weight: 100;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    width: 300px;
+}
+.follow-button a{
+    font-family: 'Russo One', sans-serif;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 20px 20px;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.follow-button a:hover{
+    background-color: rgb(253, 95, 95);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+  }
+
+#links {
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #170E15;
+    font-family: 'Prompt',sans-serif; 
+    height: 40vh;
+}
+
+.grid-container5 {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-template-rows: 300px;
+}
+
+.grid-item5 {
+    text-align: start;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.item-header {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+.item-header1 {
+    margin-top: -80px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+.grid-item5 p {
+    color: #fff;
+}
+.grid-item5 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.grid-item5 ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.grid-item5 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.grid-item5:nth-child(4) {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.item-header2{
+    margin-top: -50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+.footer p{
+    font-size: 1vw;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    background-color: #393638;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
