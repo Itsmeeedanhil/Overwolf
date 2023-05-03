@@ -828,10 +828,12 @@ nav ul li:hover::after {
 }
 .grid-item5 p {
     color: #fff;
+    font-size: 1vw;
 }
 .grid-item5 ul {
     padding: 0;
     margin: 0;
+    font-size: 1vw;
 }
 
 .grid-item5 ul li {
